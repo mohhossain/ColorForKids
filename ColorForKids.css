@@ -1,0 +1,26 @@
+body{
+    background-color: #333300;
+    text-align: center;
+}
+
+.circle{
+    width: 30%;
+    border-radius: 50%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.title-text{
+    text-align: center;
+    font-family: 'Indie-flower', cursive;
+    color: white;
+}
+#message{
+    font-family: 'Indie-flower', cursive;
+    color: chartreuse;
+}
