@@ -12,10 +12,6 @@ var tryMessage =["Try Again", "Keep Trying", "Never Give Up", "You can do it", "
 var winMessage = ["Good Job, CHAMP!", "You're the best", "That was so easy for you", "Great Work", "You made it", "You guessed it correct!", "You're AWESOME!"]
 
 
-
-game();
-
-function game(){
     for (var i = 0; i < circles.length; i++){
         circles[i].style.backgroundColor = color[i];
 
@@ -37,7 +33,7 @@ function game(){
             }
         })
     }
-}
+
 
 function changeColor(color) {
     for (var i = 0; i < circles.length; i++) {
